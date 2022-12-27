@@ -1,3 +1,20 @@
+# U6143_ssd1306 Driver for Ubuntu ARM64 (Raspberry Pi) & Install Script
+_forked from `UCTRONICS/U6143_ssd1306`_
+
+SSD1306 Modified Driver and Installer Script for UCTRONICS U6143 Raspberry Pi Rackmount Case.
+Modified source project to display temps in Celsius and dynamically configure system hostname in header file using installer script.
+Installer script also configures systemd rc-local functionality and enables OLED screen using the modified parameters at boot.
+## Installing
+Download installer script, set executable, and run with Bash:
+For now - run as root!
+```
+sudo -i
+wget https://raw.githubusercontent.com/brad07x/U6143_ssd1306_ubuntu/master/install.sh
+chmod +x install.sh
+./install.sh
+```
+# Original Project Readme
+***
 # U6143_ssd1306
 ## Preparation
 ```bash
