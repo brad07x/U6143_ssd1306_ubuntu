@@ -10,7 +10,7 @@ extern int i2cd;
 /**********Select display temperature type**************/
 #define CELSIUS       0
 #define FAHRENHEIT    1
-#define TEMPERATURE_TYPE  FAHRENHEIT
+#define TEMPERATURE_TYPE  CELSIUS
 /**********Select display temperature type**************/
 
 /**********Select display network IP type**************/
@@ -23,8 +23,8 @@ extern int i2cd;
 /************************Turn off the IP display. Can customize the display****************/
 #define IP_DISPLAY_OPEN     0
 #define IP_DISPLAY_CLOSE    1
-#define IP_SWITCH       IP_DISPLAY_OPEN
-#define CUSTOM_DISPLAY   "UCTRONICS"
+#define IP_SWITCH       IP_DISPLAY_CLOSE
+#define CUSTOM_DISPLAY   "HostnameReplace"
 /************************Turn off the IP display. Can customize the display****************/
 
 #define BLACK 0
